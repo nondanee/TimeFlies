@@ -1,13 +1,13 @@
 @font-face {
-	font-family: 'SF Regular';
+	font-family: 'San Francisco';
 	font-style: normal;
 	font-weight: 400;
 	src: url(font/SF-Pro-Display-Regular.otf) format('opentype');
 }
 @font-face {
-	font-family: 'SF Ultralight';
+	font-family: 'San Francisco';
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 100;
 	src: url(font/SF-Pro-Display-Ultralight.otf) format('opentype');
 }
 html,body{
@@ -30,7 +30,8 @@ html,body{
 	text-align: center;
 }
 .value{
-	font-family: 'SF Ultralight';
+	font-family: 'San Francisco';
+	font-weight: 100;
 	font-size: 220px;
 	letter-spacing: 14px;
 }
@@ -39,7 +40,8 @@ html,body{
 	margin-left: 30px;
 }
 .tip{
-	font-family: 'SF Regular';
+	font-family: 'San Francisco';
+	font-weight: 400;
 	font-size: 23px;
 	margin-top: -8px;
 }
